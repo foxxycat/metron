@@ -34,7 +34,7 @@ class App extends Component {
   static getInitState() {
     return {
       activePanel: 'homePanel'
-    }
+    };
   }
 
   render() {
@@ -59,6 +59,10 @@ class App extends Component {
         </View>
     </Root>
     );
+  }
+
+  openMain() {
+    this.setState({activePanel:'homePanel'});
   }
 
 }
