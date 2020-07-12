@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/metron/static/js/main.c2c8a6e3.chunk.js",
-    "main.js.map": "/metron/static/js/main.c2c8a6e3.chunk.js.map",
+    "main.js": "/metron/static/js/main.a7466f9b.chunk.js",
+    "main.js.map": "/metron/static/js/main.a7466f9b.chunk.js.map",
     "runtime-main.js": "/metron/static/js/runtime-main.10dd7c5b.js",
     "runtime-main.js.map": "/metron/static/js/runtime-main.10dd7c5b.js.map",
     "static/css/2.86df01db.chunk.css": "/metron/static/css/2.86df01db.chunk.css",
-    "static/js/2.87119a8a.chunk.js": "/metron/static/js/2.87119a8a.chunk.js",
-    "static/js/2.87119a8a.chunk.js.map": "/metron/static/js/2.87119a8a.chunk.js.map",
+    "static/js/2.a4bf3994.chunk.js": "/metron/static/js/2.a4bf3994.chunk.js",
+    "static/js/2.a4bf3994.chunk.js.map": "/metron/static/js/2.a4bf3994.chunk.js.map",
     "index.html": "/metron/index.html",
-    "precache-manifest.6de168aecfc57a9bfa3a3c578d992321.js": "/metron/precache-manifest.6de168aecfc57a9bfa3a3c578d992321.js",
+    "precache-manifest.6db9163a46963cef5775c7fff1711e23.js": "/metron/precache-manifest.6db9163a46963cef5775c7fff1711e23.js",
     "service-worker.js": "/metron/service-worker.js",
     "static/css/2.86df01db.chunk.css.map": "/metron/static/css/2.86df01db.chunk.css.map",
-    "static/js/2.87119a8a.chunk.js.LICENSE.txt": "/metron/static/js/2.87119a8a.chunk.js.LICENSE.txt"
+    "static/js/2.a4bf3994.chunk.js.LICENSE.txt": "/metron/static/js/2.a4bf3994.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.10dd7c5b.js",
     "static/css/2.86df01db.chunk.css",
-    "static/js/2.87119a8a.chunk.js",
-    "static/js/main.c2c8a6e3.chunk.js"
+    "static/js/2.a4bf3994.chunk.js",
+    "static/js/main.a7466f9b.chunk.js"
   ]
 }
