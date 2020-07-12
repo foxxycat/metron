@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import {View, Panel, PanelHeader, Header, Group, Cell, Button, Div} from '@vkontakte/vkui'
+import {View, Panel, PanelHeader, Header, Group, Cell, Button, Div, FormLayout, Slider} from '@vkontakte/vkui'
 import '@vkontakte/vkui/dist/vkui.css';
 import './App.css';
 
@@ -14,7 +14,10 @@ function App() {
           off
         </Button>
       </Div>
-      <Group header={<Header mode="secondary">Настройкм</Header>}>
+      <Group header={<Header mode="secondary">Настройки</Header>}>
+        <FormLayout>
+          <Slider min={0} max={100} />
+        </FormLayout>
       </Group>
     </Panel>
   </View>
