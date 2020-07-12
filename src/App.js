@@ -10,7 +10,7 @@ function App() {
     <Panel id="main">
       <PanelHeader>Metron</PanelHeader>
       <Group>
-        <Button className='Main-button'>
+        <Button className='Main-button' mode='outline' size='l'>
           off
         </Button>
       </Group>
