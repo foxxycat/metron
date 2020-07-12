@@ -26,6 +26,7 @@
 
 .Main-button {
   border-radius: 50%;
+  size: 100px;
 }
 
 .Button-wrapper {
