@@ -42,8 +42,8 @@ class App extends Component {
 
     return (
       <Root activeView="homeView">
-        <View activePanel="main">
-          <Panel id="homePanel" activePanel={this.state.activePanel}>
+        <View activePanel="homeView" activePanel={this.state.activePanel}>
+          <Panel id="homePanel">
             <PanelHeader>Metron</PanelHeader>
             <Div className='Button-wrapper'>
               <Button className='Main-button' mode='outline' size='l'>
