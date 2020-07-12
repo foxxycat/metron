@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import {View, Panel, PanelHeader, Header, Group, Cell} from '@vkontakte/vkui'
+import {View, Panel, PanelHeader, Header, Group, Cell, Button} from '@vkontakte/vkui'
 import '@vkontakte/vkui/dist/vkui.css';
 import './App.css';
 
@@ -8,10 +8,13 @@ function App() {
   return (
     <View activePanel="main">
     <Panel id="main">
-      <PanelHeader>VKUI</PanelHeader>
-      <Group header={<Header mode="secondary">Items</Header>}>
-        <Cell>Hello</Cell>
-        <Cell>World</Cell>
+      <PanelHeader>Metron</PanelHeader>
+      <Group>
+        <Button className='Main-button'>
+          off
+        </Button>
+      </Group>
+      <Group header={<Header mode="secondary">Настройкм</Header>}>
       </Group>
     </Panel>
   </View>
