@@ -41,7 +41,7 @@ class App extends Component {
     const osname = platform();
 
     return (
-      <Root activeView="homeView">
+      //<Root activeView="homeView">
         <View activePanel="homeView" activePanel={this.state.activePanel}>
           <Panel id="homePanel">
             <PanelHeader>Metron</PanelHeader>
@@ -57,7 +57,7 @@ class App extends Component {
             </Group>
           </Panel>
         </View>
-    </Root>
+    //</Root>
     );
   }
 
