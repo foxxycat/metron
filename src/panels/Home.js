@@ -14,7 +14,9 @@ const Home = ({ id, go, fetchedUser }) => (
 
 		<Group title="Navigation Example">
 			<Div>
-
+				<Button mode = 'outline'>
+					off
+				</Button>
 			</Div>
 		</Group>
 	</Panel>
