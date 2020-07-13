@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9da3d8c1fe4793c6d49116c951685312",
+    "revision": "b3ba4cb820be2a956d5a0c53ac042be0",
     "url": "/metron/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metron/static/css/2.a6674286.chunk.css"
   },
   {
-    "revision": "7691ff3eaa72b262fdcd",
-    "url": "/metron/static/css/main.04cf8a56.chunk.css"
+    "revision": "b8efe520e607ee4bfa49",
+    "url": "/metron/static/css/main.b23593f3.chunk.css"
   },
   {
     "revision": "7fd63c40ae08e254652f",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/metron/static/js/2.19c528b1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7691ff3eaa72b262fdcd",
-    "url": "/metron/static/js/main.dc7e9676.chunk.js"
+    "revision": "b8efe520e607ee4bfa49",
+    "url": "/metron/static/js/main.e295da0a.chunk.js"
   },
   {
     "revision": "413bc6bfaad149d1b8b7",
