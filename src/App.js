@@ -5,22 +5,20 @@ import '@vkontakte/vkui/dist/vkui.css';
 import './App.css';
 
 class App extends Component {
-  // constructor(props) {
-  //   super(props);
+  constructor(props) {
+    super(props);
 
-  //   this.state = App.getInitState();
-  // }
+    this.state = App.getInitState();
+  }
 
-  // static getInitState() {
-  //   return {
-  //     bpm: 0,
-  //     playing: false,
-  //     count: 0,
-  //     activePanel: 'homePanel'
-  //   };
-  // }
-
-
+  static getInitState() {
+    return {
+      bpm: 0,
+      playing: false,
+      count: 0,
+      activePanel: 'homePanel'
+    };
+  }
 
   render() {
     const osname = platform();
@@ -46,9 +44,9 @@ class App extends Component {
     );
   }
 
-  // openMain() {
-  //   this.setState({activePanel:'homePanel'});
-  // }
+  openMain() {
+    this.setState({activePanel:'homePanel'});
+  }
 
 }
 
