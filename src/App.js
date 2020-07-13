@@ -29,8 +29,8 @@ class App extends Component {
         <Panel id="homePanel">
           <PanelHeader>Metron</PanelHeader>
           <Div className='Button-wrapper'>
-            <Button className='Main-button' mode='outline'>
-              
+            <Button className='Main-button' mode='outline' onClick={this.props.handleClick}>
+              {this.props.currentState ? "On" : "Off"}
             </Button>
           </Div>
           <Group header={<Header mode="secondary">Настройки</Header>}>
