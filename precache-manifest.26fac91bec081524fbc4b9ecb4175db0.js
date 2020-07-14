@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c5882153b8a38a9deecd93a03ffc0e4",
+    "revision": "911bdccb24df66fb80ed443c636393b9",
     "url": "/metron/index.html"
   },
   {
-    "revision": "c4d74f389cc4dcf2b5b2",
+    "revision": "56c016c1a9fc34f0fe41",
     "url": "/metron/static/css/2.a6674286.chunk.css"
   },
   {
-    "revision": "906b46a01fd70acf487d",
+    "revision": "4c47f5a79a06c475c5f1",
     "url": "/metron/static/css/main.0891efa8.chunk.css"
   },
   {
-    "revision": "c4d74f389cc4dcf2b5b2",
-    "url": "/metron/static/js/2.c89d3cd2.chunk.js"
+    "revision": "56c016c1a9fc34f0fe41",
+    "url": "/metron/static/js/2.8afba122.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/metron/static/js/2.c89d3cd2.chunk.js.LICENSE.txt"
+    "url": "/metron/static/js/2.8afba122.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "906b46a01fd70acf487d",
-    "url": "/metron/static/js/main.41e3ae07.chunk.js"
+    "revision": "4c47f5a79a06c475c5f1",
+    "url": "/metron/static/js/main.95820fa0.chunk.js"
   },
   {
     "revision": "413bc6bfaad149d1b8b7",
@@ -34,9 +34,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fe0ded65f5f6b999883ee7aa4cf418c4",
     "url": "/metron/static/media/click2.fe0ded65.wav"
-  },
-  {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/metron/static/media/logo.5d5d9eef.svg"
   }
 ]);
