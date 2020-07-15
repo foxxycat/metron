@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import {View, Panel, PanelHeader, Header, Group, Div, FormLayout, platform, Button, Slider, Text} from '@vkontakte/vkui'
+import {View, Panel, PanelHeader, Header, Group, Div, FormLayout, platform, Button, Slider, Text, Counter} from '@vkontakte/vkui'
 import '@vkontakte/vkui/dist/vkui.css';
 import './App.css';
 import click1 from '../src/samples/click1.wav'
 import click2 from '../src/samples/click2.wav'
+import { wait } from '@testing-library/react';
 
 // class App extends Component {
 
@@ -191,10 +192,12 @@ class App extends React.Component{
 
     this.state = {
       // название на кнопке
-      label: 'off',
+      label: 'on',
       // бпм
       tempoBpm: 100,
-      
+
+      timer: null,
+      counter: 0
     };
 
     // добавление аудио
@@ -202,14 +205,36 @@ class App extends React.Component{
 
     // обработчик кнопки
     this.toggleMainBtn = this.toggleMainBtn.bind(this);
+    this.startTimer = this.startTimer.bind(this);
+    this.tick = this.tick.bind(this)
+    this.stopTimer = this.stopTimer.bind(this)
+  }
+
+  startTimer() {
+    let timer = setInterval(this.tick, (60/this.state.tempoBpm*1000));
+    this.setState({timer});
+  }
+
+  stopTimer() {
+    clearInterval(this.state.timer);
+  }
+
+  tick() {
+    this.click1.play()
   }
 
   // метод обработки нажатия на кнопку
   toggleMainBtn() {
-    //let tempoBpm = this.state.tempoBpm
-
     let label = this.state.label === 'off' ? /*tempoBpm*/ 'on' : 'off';
-    this.click1.play();
+
+    if(this.state.label === 'on') {
+      this.click1.play()
+
+      this.startTimer()
+    }
+    else {
+      this.stopTimer()
+    }
     this.setState({label: label});
   }
 
@@ -228,7 +253,6 @@ class App extends React.Component{
               {this.state.label}
             </Button>
 
-            
           </Div>
           <Group header={<Header mode='secondary'>Настройки</Header>}>
               <FormLayout>
