@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/metron/static/css/main.0891efa8.chunk.css",
-    "main.js": "/metron/static/js/main.95820fa0.chunk.js",
-    "main.js.map": "/metron/static/js/main.95820fa0.chunk.js.map",
+    "main.js": "/metron/static/js/main.bc20ca36.chunk.js",
+    "main.js.map": "/metron/static/js/main.bc20ca36.chunk.js.map",
     "runtime-main.js": "/metron/static/js/runtime-main.a0780570.js",
     "runtime-main.js.map": "/metron/static/js/runtime-main.a0780570.js.map",
     "static/css/2.a6674286.chunk.css": "/metron/static/css/2.a6674286.chunk.css",
-    "static/js/2.8afba122.chunk.js": "/metron/static/js/2.8afba122.chunk.js",
-    "static/js/2.8afba122.chunk.js.map": "/metron/static/js/2.8afba122.chunk.js.map",
+    "static/js/2.12f01cd9.chunk.js": "/metron/static/js/2.12f01cd9.chunk.js",
+    "static/js/2.12f01cd9.chunk.js.map": "/metron/static/js/2.12f01cd9.chunk.js.map",
     "index.html": "/metron/index.html",
-    "precache-manifest.26fac91bec081524fbc4b9ecb4175db0.js": "/metron/precache-manifest.26fac91bec081524fbc4b9ecb4175db0.js",
+    "precache-manifest.d8d97d718c96a7c7e4eeffc395f9f32c.js": "/metron/precache-manifest.d8d97d718c96a7c7e4eeffc395f9f32c.js",
     "service-worker.js": "/metron/service-worker.js",
     "static/css/2.a6674286.chunk.css.map": "/metron/static/css/2.a6674286.chunk.css.map",
     "static/css/main.0891efa8.chunk.css.map": "/metron/static/css/main.0891efa8.chunk.css.map",
-    "static/js/2.8afba122.chunk.js.LICENSE.txt": "/metron/static/js/2.8afba122.chunk.js.LICENSE.txt",
+    "static/js/2.12f01cd9.chunk.js.LICENSE.txt": "/metron/static/js/2.12f01cd9.chunk.js.LICENSE.txt",
     "static/media/click1.wav": "/metron/static/media/click1.7a7930a2.wav",
     "static/media/click2.wav": "/metron/static/media/click2.fe0ded65.wav"
   },
   "entrypoints": [
     "static/js/runtime-main.a0780570.js",
     "static/css/2.a6674286.chunk.css",
-    "static/js/2.8afba122.chunk.js",
+    "static/js/2.12f01cd9.chunk.js",
     "static/css/main.0891efa8.chunk.css",
-    "static/js/main.95820fa0.chunk.js"
+    "static/js/main.bc20ca36.chunk.js"
   ]
 }
