@@ -4,7 +4,6 @@ import '@vkontakte/vkui/dist/vkui.css';
 import './App.css';
 import click1 from '../src/samples/click1.wav'
 import click2 from '../src/samples/click2.wav'
-import { wait } from '@testing-library/react';
 
 // class App extends Component {
 
