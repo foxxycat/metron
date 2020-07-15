@@ -251,7 +251,6 @@ class App extends React.Component{
             <Button mode='outline' className='Main-button' onClick={this.toggleMainBtn}>
               {this.state.label}
             </Button>
-          <Text weight='regular' style={{textAlign:'center'}}>Test</Text>
           </Div>
           <Group header={<Header mode='secondary'>Настройки</Header>}>
               <FormLayout>
