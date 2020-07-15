@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {View, Panel, PanelHeader, Header, Group, Div, FormLayout, platform, Button, Slider, Text, Counter} from '@vkontakte/vkui'
+import {View, Panel, PanelHeader, Header, Group, Div, FormLayout, Button, Slider, Text} from '@vkontakte/vkui'
 import '@vkontakte/vkui/dist/vkui.css';
 import './App.css';
 import click1 from '../src/samples/click1.wav'
