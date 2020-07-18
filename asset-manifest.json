@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/metron/static/css/main.0891efa8.chunk.css",
-    "main.js": "/metron/static/js/main.bafed6ef.chunk.js",
-    "main.js.map": "/metron/static/js/main.bafed6ef.chunk.js.map",
+    "main.js": "/metron/static/js/main.c8d81bb0.chunk.js",
+    "main.js.map": "/metron/static/js/main.c8d81bb0.chunk.js.map",
     "runtime-main.js": "/metron/static/js/runtime-main.a0780570.js",
     "runtime-main.js.map": "/metron/static/js/runtime-main.a0780570.js.map",
     "static/css/2.a6674286.chunk.css": "/metron/static/css/2.a6674286.chunk.css",
     "static/js/2.b29db79a.chunk.js": "/metron/static/js/2.b29db79a.chunk.js",
     "static/js/2.b29db79a.chunk.js.map": "/metron/static/js/2.b29db79a.chunk.js.map",
     "index.html": "/metron/index.html",
-    "precache-manifest.ba7cdfed171923493cddd603c1332211.js": "/metron/precache-manifest.ba7cdfed171923493cddd603c1332211.js",
+    "precache-manifest.854e72428e874f5f8288d43163fc21d2.js": "/metron/precache-manifest.854e72428e874f5f8288d43163fc21d2.js",
     "service-worker.js": "/metron/service-worker.js",
     "static/css/2.a6674286.chunk.css.map": "/metron/static/css/2.a6674286.chunk.css.map",
     "static/css/main.0891efa8.chunk.css.map": "/metron/static/css/main.0891efa8.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.a6674286.chunk.css",
     "static/js/2.b29db79a.chunk.js",
     "static/css/main.0891efa8.chunk.css",
-    "static/js/main.bafed6ef.chunk.js"
+    "static/js/main.c8d81bb0.chunk.js"
   ]
 }
