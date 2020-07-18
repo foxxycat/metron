@@ -104,7 +104,7 @@ class App extends React.Component {
   }
 
   timerStart() {
-    this.timerID = setInterval(() => this.tick(),(60/this.state.tempo*1000))
+    this.timerID = setInterval(() => this.click1.play(),(60/this.state.tempo*1000))
   }
 
   timerStop() {
