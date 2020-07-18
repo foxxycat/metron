@@ -88,12 +88,14 @@ import { render } from '@testing-library/react';
 //   }
 // }
 
+
 class App extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
       isToggleOn: false,
+      count: 0,
       tempo: 100
     }
 
@@ -111,6 +113,7 @@ class App extends React.Component {
 
   tick() {
     this.click1.play();
+    this.setState({count: this.state.count + 1})
   }
 
   handleClick() {
@@ -128,6 +131,7 @@ class App extends React.Component {
             <Button mode='outline' className='Main-button' onClick={()=>this.handleClick()}>
               {this.state.isToggleOn ? 'off': 'on'}
             </Button>
+    <Text>{this.state.count}</Text>
           </Div>
           <Group header={<Header mode='secondary'>Настройки</Header>}>
               <FormLayout>
